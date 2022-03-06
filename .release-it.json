@@ -1,0 +1,13 @@
+{
+  "git": {
+    "commitMessage": "v${version} release",
+    "requireCleanWorkingDir": true,
+    "tagAnnotation": "v${version}",
+    "tagName": "v${version}"
+  },
+  "github": {
+    "draft": true,
+    "release": true,
+    "releaseName": "v${version}"
+  }
+}
